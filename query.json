@@ -1,0 +1,9 @@
+{
+  "httpMethod": "POST",
+  "path": "/",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "requestContext": {},
+  "body": "{\"operationName\": null, \"variables\": null, \"query\": \"{ mutation CreateUser { createUser( data: { user_id: \"1\" firstName: \"test123\" lastName: \"test123\" email: \"test123@gmail.com\" } ) { user_id firstName lastName email } } }\"}"
+}
